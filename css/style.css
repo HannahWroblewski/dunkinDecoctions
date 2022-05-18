@@ -4,10 +4,13 @@
     Version: 1.0
 */
 
+/* CSS For All */
+
 *{
     margin: 0 0;
     padding: 0 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #c4d6b0;
 }
 
 .container{
@@ -15,4 +18,48 @@
     border: 1px solid black;
     margin: 0 auto;
     padding: 1%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.clear-fix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #a3333d;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#33a333;
+}
+
+/* NavBar CSS */
+
+.logo{
+    border: 1px solid blue;
+    width: 10%;
+    float: left;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.menu{
+    line-height: 60px;
+}
+
+.menu ul{
+list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
 }
