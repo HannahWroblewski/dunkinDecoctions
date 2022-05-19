@@ -15,7 +15,7 @@
 
 .container{
     width: 80%;
-    border: 1px solid black;
+    
     margin: 0 auto;
     padding: 1%;
     /* background-color: transparent; */
@@ -58,11 +58,13 @@ a:hover{
 
 .button-primary:hover{
     background-color: #33a333;
+    color: #ececec;
 }
 
 h2{
     color: #1e2d24;
     font-size: 2rem;
+    margin-bottom: 2%;
 }
 
 h3{
@@ -87,7 +89,7 @@ h3{
 /* NavBar CSS */
 
 .logo{
-    border: 1px solid blue;
+    
     width: 10%;
     float: left;
 }
@@ -148,8 +150,112 @@ list-style-type: none;
 }
 
 .box-3{
-    border: 1px solid blue;
+    
     width: 27%;
     float: left;
     margin: 3%;
+}
+
+/* Bundles CSS */
+
+.potion-packs{
+    background-color: #96a386;
+    padding: 4% 0;
+}
+
+.bundle-box{
+    
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: #334139;
+    border-radius: 2%;
+}
+
+.bundle-img{
+    width: 20%;
+    float: left;
+}
+
+.bundle-info{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+    
+}
+
+.bundle-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.bundle-desc{
+    font-size: 1rem;
+    color: #96a386;
+}
+
+/* Social Media CSS */
+.social-media ul{
+    list-style-type: none;
+}
+
+.social-media ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* Mobile CSS */
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .potion-search input[type="search"]{
+        width: 90%;
+        margin-bottom: 3%;
+        padding: 2%;
+    }
+
+    .potion-search{
+        padding: 10% 0;
+    }
+
+    .button{
+        width: 90%;
+        padding: 2%;
+    }
+
+    .categories{
+        padding: 10% 0;
+    }
+
+    h2{
+        margin-bottom: 5% auto;
+    }
+
+    .box-3{
+        width: 95%;
+        margin: 4% auto;
+    }
+
+   .potion-packs{
+       padding: 20% 0;
+   }
+   
+   .bundle-box{
+       width: 90%;
+       padding: 5%;
+       margin-bottom: 5%;
+   }
+
+   .social-media{
+       padding: 5% 0;
+   }
 }
